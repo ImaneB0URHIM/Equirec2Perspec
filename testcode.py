@@ -12,3 +12,6 @@ if __name__ == '__main__':
     # height and width is output image dimension 
     #
     img = equ.GetPerspective(60, 0, 0, 720, 1080) # Specify parameters(FOV, theta, phi, height, width)
+    
+    print(type(img))
+    cv2.imshow('sample image',img)
